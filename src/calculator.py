@@ -6,5 +6,10 @@ def substract(first_number: int, second_number:int):
     """Return the difference of two numbers."""
     return first_number - second_number
 
-print(add(5,3))
+def multiply(first_number: int, second_number: int):
+    """Return the product of two numbers."""
+    return first_number * second_number
+
+
+
 
