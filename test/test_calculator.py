@@ -1,4 +1,4 @@
-from src.calculator import add, substract
+from src.calculator import add, substract, multiply
 
 
 def test_add():
@@ -14,7 +14,6 @@ def test_substract():
 
 
 def test_multiply():
-
     assert multiply(2, 3) == 6
     assert multiply(-1, -1) == 1
     assert multiply(0, 5) == 0
