@@ -19,6 +19,3 @@ def divide(first_number: int, second_number: int):
         raise ValueError("Cannot divide by zero.")
 
     return first_number / second_number
-
-
-
