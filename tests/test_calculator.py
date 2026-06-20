@@ -32,4 +32,3 @@ def test_divide_by_zero():
         assert str(e) == "Cannot divide by zero."
     else:
         assert False, "Expected ValueError when dividing by zero."
-
