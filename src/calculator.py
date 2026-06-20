@@ -19,3 +19,10 @@ def divide(first_number: int, second_number: int):
         raise ValueError("Cannot divide by zero.")
 
     return first_number / second_number
+
+def divide(first_number: int, second_number: int):
+    """Return the quotient of two numbers."""
+    if second_number == 0:
+        raise ValueError("Cannot divide by zero.")
+
+    return first_number / second_number
